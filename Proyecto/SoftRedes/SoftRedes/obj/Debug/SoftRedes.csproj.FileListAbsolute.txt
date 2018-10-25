@@ -30,3 +30,6 @@ C:\Users\migue\OneDrive\Escritorio\Desarrollo\C#\Proyecto\SoftRedes\SoftRedes\ob
 C:\Users\migue\OneDrive\Escritorio\Desarrollo\C#\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.Login.resources
 C:\Users\migue\OneDrive\Escritorio\Desarrollo\C#\Proyecto\SoftRedes\SoftRedes\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\migue\OneDrive\Escritorio\Desarrollo\C#\Proyecto\SoftRedes\SoftRedes\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Winnikie Mendiburu\Desktop\Ordinario-Paco\here\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\SoftRedes.exe.config
+C:\Users\Winnikie Mendiburu\Desktop\Ordinario-Paco\here\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.exe
+C:\Users\Winnikie Mendiburu\Desktop\Ordinario-Paco\here\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.pdb
