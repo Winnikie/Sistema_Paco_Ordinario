@@ -18,7 +18,6 @@ namespace SoftRedes
         ConexionSQL conexion = new ConexionSQL();
 
         SqlDataReader leer;
-        DataTable tabla = new DataTable();
         SqlCommand comando = new SqlCommand();
         public Usuarios()
         {
@@ -37,9 +36,10 @@ namespace SoftRedes
         public DataTable Mostrar()
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "stpLeerUsuarios";
+            comando.CommandText = "stpLeerUsuariosA";
             comando.CommandType = CommandType.StoredProcedure;
             leer = comando.ExecuteReader();
+            DataTable tabla = new DataTable();
             tabla.Load(leer);
             conexion.CerrarConexion();
             return tabla;
@@ -57,7 +57,7 @@ namespace SoftRedes
             u.ContraseñaUsuario = txtContraseñaUsuario.Text;
             GuardarUsuario(u);
             MostrarUsuarios();
-            
+
         }
         public void GuardarUsuario(Usuario u)
         {
@@ -65,15 +65,13 @@ namespace SoftRedes
         }
         public void Insertar(Usuario u)
         {
-            //PROCEDIMNIENTO
-
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "stpCrearUsuario ";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@NombreUsuario", u.NomUsuario);
             comando.Parameters.AddWithValue("@CorreoUsuario", u.CorreoUsuario);
             comando.Parameters.AddWithValue("@DireccionUsuario", u.DireccionUsuario);
-            comando.Parameters.AddWithValue("@TelefonoUsuario", u.TelefonoUsuario);            
+            comando.Parameters.AddWithValue("@TelefonoUsuario", u.TelefonoUsuario);
             comando.Parameters.AddWithValue("@FechaNacimiento", u.FechaNacUsuario);
             comando.Parameters.AddWithValue("@AliasUsuario", u.AliasUsuario);
             comando.Parameters.AddWithValue("@ContraseñaUsuario", u.ContraseñaUsuario);
@@ -84,15 +82,8 @@ namespace SoftRedes
             comando.Parameters.Clear();
 
         }
+        
 
-        private void txtCorreoUsuario_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
