@@ -80,7 +80,6 @@ namespace SoftRedes
 
                 if (tabla.Rows.Count == 1)
                 {
-                    //MessageBox.Show("LISTO");
                     abrir.Show();
                     this.Hide();
                 }

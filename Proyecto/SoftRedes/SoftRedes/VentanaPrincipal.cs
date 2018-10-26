@@ -55,13 +55,13 @@ namespace SoftRedes
         {
             if (PanelContenedor.Controls.Count == 0)
             {
-                AjustarMenu();
                 Form fh = formhijo as Form;
                 fh.TopLevel = false;
-                fh.Dock = DockStyle.Fill;
+                //fh.Dock = DockStyle.Fill;
                 this.PanelContenedor.Controls.Add(fh);
                 this.PanelContenedor.Tag = fh;
                 fh.Show();
+                fh.WindowState = FormWindowState.Maximized;
             }
             else
                 MessageBox.Show("Ya hay una ventana abierta");
@@ -75,15 +75,6 @@ namespace SoftRedes
             // AbrirVentana(new fUsuarios());
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnMenu_Click(object sender, EventArgs e)
         {
             AjustarMenu();
@@ -94,6 +85,14 @@ namespace SoftRedes
                 MenuVertical.Width = 67;
             else
                 MenuVertical.Width = 246;
+        }
+
+        private void btnDispositivos_Click(object sender, EventArgs e)
+        {
+            if (SubMenuDispositivos.Visible == true)
+                SubMenuDispositivos.Visible = false;
+            else
+                SubMenuDispositivos.Visible = true;
         }
     }
 }

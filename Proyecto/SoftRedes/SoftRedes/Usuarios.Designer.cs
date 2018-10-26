@@ -30,10 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             this.catUsuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-         
             this.dtpFechaNacUsuario = new System.Windows.Forms.DateTimePicker();
             this.txtRContraseñaUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseñaUsuario = new System.Windows.Forms.TextBox();
@@ -52,88 +53,91 @@
             this.btnGuardarUsuario = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.txtTelefonoUsuario = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
+            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.catUsuarioBindingSource)).BeginInit();
-
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(232, 263);
+            this.label1.Location = new System.Drawing.Point(49, 231);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(252, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "Usuarios Registrados";
             // 
-            // dgvUsuarios
-            // 
-            this.dgvUsuarios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvUsuarios.BackgroundColor = System.Drawing.Color.SlateGray;
-            this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsuarios.Location = new System.Drawing.Point(54, 318);
-            this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
-            this.dgvUsuarios.Name = "dgvUsuarios";
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.SlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvUsuarios.Size = new System.Drawing.Size(554, 166);
-            this.dgvUsuarios.TabIndex = 3;
-            // 
             // dtpFechaNacUsuario
             // 
+            this.dtpFechaNacUsuario.CalendarMonthBackground = System.Drawing.Color.Silver;
+            this.dtpFechaNacUsuario.CalendarTitleBackColor = System.Drawing.Color.Silver;
             this.dtpFechaNacUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFechaNacUsuario.Location = new System.Drawing.Point(474, 52);
+            this.dtpFechaNacUsuario.Location = new System.Drawing.Point(474, 55);
+            this.dtpFechaNacUsuario.MaxDate = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
+            this.dtpFechaNacUsuario.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
             this.dtpFechaNacUsuario.Name = "dtpFechaNacUsuario";
             this.dtpFechaNacUsuario.Size = new System.Drawing.Size(191, 23);
             this.dtpFechaNacUsuario.TabIndex = 26;
+            this.dtpFechaNacUsuario.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // txtRContraseñaUsuario
             // 
+            this.txtRContraseñaUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtRContraseñaUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRContraseñaUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRContraseñaUsuario.Location = new System.Drawing.Point(474, 145);
+            this.txtRContraseñaUsuario.Location = new System.Drawing.Point(474, 148);
             this.txtRContraseñaUsuario.Name = "txtRContraseñaUsuario";
-            this.txtRContraseñaUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtRContraseñaUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtRContraseñaUsuario.TabIndex = 25;
             // 
             // txtContraseñaUsuario
             // 
+            this.txtContraseñaUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtContraseñaUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContraseñaUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseñaUsuario.Location = new System.Drawing.Point(474, 114);
+            this.txtContraseñaUsuario.Location = new System.Drawing.Point(474, 117);
             this.txtContraseñaUsuario.Name = "txtContraseñaUsuario";
-            this.txtContraseñaUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtContraseñaUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtContraseñaUsuario.TabIndex = 24;
             // 
             // txtAliasUsuario
             // 
+            this.txtAliasUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtAliasUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtAliasUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAliasUsuario.Location = new System.Drawing.Point(474, 83);
+            this.txtAliasUsuario.Location = new System.Drawing.Point(474, 86);
             this.txtAliasUsuario.Name = "txtAliasUsuario";
-            this.txtAliasUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtAliasUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtAliasUsuario.TabIndex = 23;
             // 
             // txtDireccionUsuario
             // 
+            this.txtDireccionUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtDireccionUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDireccionUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccionUsuario.Location = new System.Drawing.Point(104, 82);
+            this.txtDireccionUsuario.Location = new System.Drawing.Point(104, 86);
             this.txtDireccionUsuario.Name = "txtDireccionUsuario";
-            this.txtDireccionUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtDireccionUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtDireccionUsuario.TabIndex = 22;
             // 
             // txtNombreUsuario
             // 
+            this.txtNombreUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtNombreUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreUsuario.Location = new System.Drawing.Point(104, 52);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(104, 56);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
-            this.txtNombreUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtNombreUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtNombreUsuario.TabIndex = 21;
             // 
             // label8
@@ -208,12 +212,13 @@
             // 
             // txtCorreoUsuario
             // 
+            this.txtCorreoUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtCorreoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreoUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoUsuario.Location = new System.Drawing.Point(104, 112);
+            this.txtCorreoUsuario.Location = new System.Drawing.Point(104, 116);
             this.txtCorreoUsuario.Name = "txtCorreoUsuario";
-            this.txtCorreoUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtCorreoUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtCorreoUsuario.TabIndex = 28;
-            this.txtCorreoUsuario.TextChanged += new System.EventHandler(this.txtCorreoUsuario_TextChanged);
             // 
             // label9
             // 
@@ -224,7 +229,6 @@
             this.label9.Size = new System.Drawing.Size(61, 17);
             this.label9.TabIndex = 27;
             this.label9.Text = "Correo: ";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // btnGuardarUsuario
             // 
@@ -235,9 +239,9 @@
             this.btnGuardarUsuario.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarUsuario.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnGuardarUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardarUsuario.Location = new System.Drawing.Point(284, 198);
+            this.btnGuardarUsuario.Location = new System.Drawing.Point(54, 200);
             this.btnGuardarUsuario.Name = "btnGuardarUsuario";
-            this.btnGuardarUsuario.Size = new System.Drawing.Size(136, 50);
+            this.btnGuardarUsuario.Size = new System.Drawing.Size(98, 28);
             this.btnGuardarUsuario.TabIndex = 29;
             this.btnGuardarUsuario.Text = "Guardar";
             this.btnGuardarUsuario.UseVisualStyleBackColor = false;
@@ -255,17 +259,136 @@
             // 
             // txtTelefonoUsuario
             // 
+            this.txtTelefonoUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtTelefonoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTelefonoUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefonoUsuario.Location = new System.Drawing.Point(104, 142);
+            this.txtTelefonoUsuario.Location = new System.Drawing.Point(104, 146);
             this.txtTelefonoUsuario.Name = "txtTelefonoUsuario";
-            this.txtTelefonoUsuario.Size = new System.Drawing.Size(191, 23);
+            this.txtTelefonoUsuario.Size = new System.Drawing.Size(191, 16);
             this.txtTelefonoUsuario.TabIndex = 31;
+            // 
+            // shapeContainer1
+            // 
+            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer1.Name = "shapeContainer1";
+            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape7,
+            this.lineShape6,
+            this.lineShape5,
+            this.lineShape4,
+            this.lineShape3,
+            this.lineShape2,
+            this.lineShape1});
+            this.shapeContainer1.Size = new System.Drawing.Size(984, 674);
+            this.shapeContainer1.TabIndex = 32;
+            this.shapeContainer1.TabStop = false;
+            // 
+            // lineShape7
+            // 
+            this.lineShape7.Enabled = false;
+            this.lineShape7.Name = "lineShape7";
+            this.lineShape7.X1 = 471;
+            this.lineShape7.X2 = 670;
+            this.lineShape7.Y1 = 104;
+            this.lineShape7.Y2 = 104;
+            // 
+            // lineShape6
+            // 
+            this.lineShape6.Enabled = false;
+            this.lineShape6.Name = "lineShape6";
+            this.lineShape6.X1 = 471;
+            this.lineShape6.X2 = 670;
+            this.lineShape6.Y1 = 134;
+            this.lineShape6.Y2 = 134;
+            // 
+            // lineShape5
+            // 
+            this.lineShape5.Enabled = false;
+            this.lineShape5.Name = "lineShape5";
+            this.lineShape5.X1 = 471;
+            this.lineShape5.X2 = 670;
+            this.lineShape5.Y1 = 167;
+            this.lineShape5.Y2 = 167;
+            // 
+            // lineShape4
+            // 
+            this.lineShape4.Enabled = false;
+            this.lineShape4.Name = "lineShape4";
+            this.lineShape4.X1 = 98;
+            this.lineShape4.X2 = 297;
+            this.lineShape4.Y1 = 167;
+            this.lineShape4.Y2 = 167;
+            // 
+            // lineShape3
+            // 
+            this.lineShape3.Enabled = false;
+            this.lineShape3.Name = "lineShape3";
+            this.lineShape3.X1 = 98;
+            this.lineShape3.X2 = 297;
+            this.lineShape3.Y1 = 134;
+            this.lineShape3.Y2 = 134;
+            // 
+            // lineShape2
+            // 
+            this.lineShape2.Enabled = false;
+            this.lineShape2.Name = "lineShape2";
+            this.lineShape2.X1 = 98;
+            this.lineShape2.X2 = 297;
+            this.lineShape2.Y1 = 104;
+            this.lineShape2.Y2 = 104;
+            // 
+            // lineShape1
+            // 
+            this.lineShape1.Enabled = false;
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = 98;
+            this.lineShape1.X2 = 297;
+            this.lineShape1.Y1 = 76;
+            this.lineShape1.Y2 = 76;
+            // 
+            // dgvUsuarios
+            // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvUsuarios.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvUsuarios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvUsuarios.BackgroundColor = System.Drawing.Color.Silver;
+            this.dgvUsuarios.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvUsuarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvUsuarios.ColumnHeadersHeight = 30;
+            this.dgvUsuarios.EnableHeadersVisualStyles = false;
+            this.dgvUsuarios.Location = new System.Drawing.Point(54, 275);
+            this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvUsuarios.Name = "dgvUsuarios";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvUsuarios.RowHeadersVisible = false;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvUsuarios.Size = new System.Drawing.Size(731, 222);
+            this.dgvUsuarios.TabIndex = 33;
             // 
             // Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 566);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(984, 674);
+            this.Controls.Add(this.dgvUsuarios);
             this.Controls.Add(this.txtTelefonoUsuario);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnGuardarUsuario);
@@ -284,17 +407,16 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dgvUsuarios);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.shapeContainer1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Usuarios";
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Usuarios_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.catUsuarioBindingSource)).EndInit();
-
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,7 +425,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dgvUsuarios;
         private System.Windows.Forms.BindingSource catUsuarioBindingSource;
         private System.Windows.Forms.DateTimePicker dtpFechaNacUsuario;
         private System.Windows.Forms.TextBox txtRContraseñaUsuario;
@@ -323,5 +444,14 @@
         private System.Windows.Forms.Button btnGuardarUsuario;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtTelefonoUsuario;
+        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape7;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape5;
+        private System.Windows.Forms.DataGridView dgvUsuarios;
     }
 }
