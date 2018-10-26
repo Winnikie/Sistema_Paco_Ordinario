@@ -54,14 +54,14 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtTelefonoUsuario = new System.Windows.Forms.TextBox();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
+            this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape7 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             ((System.ComponentModel.ISupportInitialize)(this.catUsuarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.SuspendLayout();
@@ -87,7 +87,7 @@
             this.dtpFechaNacUsuario.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
             this.dtpFechaNacUsuario.Name = "dtpFechaNacUsuario";
             this.dtpFechaNacUsuario.Size = new System.Drawing.Size(191, 23);
-            this.dtpFechaNacUsuario.TabIndex = 26;
+            this.dtpFechaNacUsuario.TabIndex = 5;
             this.dtpFechaNacUsuario.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // txtRContraseñaUsuario
@@ -95,50 +95,50 @@
             this.txtRContraseñaUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtRContraseñaUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRContraseñaUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRContraseñaUsuario.Location = new System.Drawing.Point(474, 148);
+            this.txtRContraseñaUsuario.Location = new System.Drawing.Point(466, 148);
             this.txtRContraseñaUsuario.Name = "txtRContraseñaUsuario";
             this.txtRContraseñaUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtRContraseñaUsuario.TabIndex = 25;
+            this.txtRContraseñaUsuario.TabIndex = 8;
             // 
             // txtContraseñaUsuario
             // 
             this.txtContraseñaUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtContraseñaUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContraseñaUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseñaUsuario.Location = new System.Drawing.Point(474, 117);
+            this.txtContraseñaUsuario.Location = new System.Drawing.Point(466, 117);
             this.txtContraseñaUsuario.Name = "txtContraseñaUsuario";
             this.txtContraseñaUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtContraseñaUsuario.TabIndex = 24;
+            this.txtContraseñaUsuario.TabIndex = 7;
             // 
             // txtAliasUsuario
             // 
             this.txtAliasUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtAliasUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtAliasUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAliasUsuario.Location = new System.Drawing.Point(474, 86);
+            this.txtAliasUsuario.Location = new System.Drawing.Point(466, 86);
             this.txtAliasUsuario.Name = "txtAliasUsuario";
             this.txtAliasUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtAliasUsuario.TabIndex = 23;
+            this.txtAliasUsuario.TabIndex = 6;
             // 
             // txtDireccionUsuario
             // 
             this.txtDireccionUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtDireccionUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDireccionUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccionUsuario.Location = new System.Drawing.Point(104, 86);
+            this.txtDireccionUsuario.Location = new System.Drawing.Point(98, 86);
             this.txtDireccionUsuario.Name = "txtDireccionUsuario";
             this.txtDireccionUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtDireccionUsuario.TabIndex = 22;
+            this.txtDireccionUsuario.TabIndex = 2;
             // 
             // txtNombreUsuario
             // 
             this.txtNombreUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtNombreUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreUsuario.Location = new System.Drawing.Point(104, 56);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(98, 55);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
             this.txtNombreUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtNombreUsuario.TabIndex = 21;
+            this.txtNombreUsuario.TabIndex = 1;
             // 
             // label8
             // 
@@ -215,10 +215,10 @@
             this.txtCorreoUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtCorreoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreoUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoUsuario.Location = new System.Drawing.Point(104, 116);
+            this.txtCorreoUsuario.Location = new System.Drawing.Point(98, 117);
             this.txtCorreoUsuario.Name = "txtCorreoUsuario";
             this.txtCorreoUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtCorreoUsuario.TabIndex = 28;
+            this.txtCorreoUsuario.TabIndex = 3;
             // 
             // label9
             // 
@@ -262,10 +262,10 @@
             this.txtTelefonoUsuario.BackColor = System.Drawing.Color.Silver;
             this.txtTelefonoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTelefonoUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefonoUsuario.Location = new System.Drawing.Point(104, 146);
+            this.txtTelefonoUsuario.Location = new System.Drawing.Point(98, 148);
             this.txtTelefonoUsuario.Name = "txtTelefonoUsuario";
             this.txtTelefonoUsuario.Size = new System.Drawing.Size(191, 16);
-            this.txtTelefonoUsuario.TabIndex = 31;
+            this.txtTelefonoUsuario.TabIndex = 4;
             // 
             // shapeContainer1
             // 
@@ -284,33 +284,6 @@
             this.shapeContainer1.TabIndex = 32;
             this.shapeContainer1.TabStop = false;
             // 
-            // lineShape7
-            // 
-            this.lineShape7.Enabled = false;
-            this.lineShape7.Name = "lineShape7";
-            this.lineShape7.X1 = 471;
-            this.lineShape7.X2 = 670;
-            this.lineShape7.Y1 = 104;
-            this.lineShape7.Y2 = 104;
-            // 
-            // lineShape6
-            // 
-            this.lineShape6.Enabled = false;
-            this.lineShape6.Name = "lineShape6";
-            this.lineShape6.X1 = 471;
-            this.lineShape6.X2 = 670;
-            this.lineShape6.Y1 = 134;
-            this.lineShape6.Y2 = 134;
-            // 
-            // lineShape5
-            // 
-            this.lineShape5.Enabled = false;
-            this.lineShape5.Name = "lineShape5";
-            this.lineShape5.X1 = 471;
-            this.lineShape5.X2 = 670;
-            this.lineShape5.Y1 = 167;
-            this.lineShape5.Y2 = 167;
-            // 
             // lineShape4
             // 
             this.lineShape4.Enabled = false;
@@ -326,8 +299,8 @@
             this.lineShape3.Name = "lineShape3";
             this.lineShape3.X1 = 98;
             this.lineShape3.X2 = 297;
-            this.lineShape3.Y1 = 134;
-            this.lineShape3.Y2 = 134;
+            this.lineShape3.Y1 = 136;
+            this.lineShape3.Y2 = 136;
             // 
             // lineShape2
             // 
@@ -335,8 +308,8 @@
             this.lineShape2.Name = "lineShape2";
             this.lineShape2.X1 = 98;
             this.lineShape2.X2 = 297;
-            this.lineShape2.Y1 = 104;
-            this.lineShape2.Y2 = 104;
+            this.lineShape2.Y1 = 105;
+            this.lineShape2.Y2 = 105;
             // 
             // lineShape1
             // 
@@ -344,8 +317,8 @@
             this.lineShape1.Name = "lineShape1";
             this.lineShape1.X1 = 98;
             this.lineShape1.X2 = 297;
-            this.lineShape1.Y1 = 76;
-            this.lineShape1.Y2 = 76;
+            this.lineShape1.Y1 = 74;
+            this.lineShape1.Y2 = 74;
             // 
             // dgvUsuarios
             // 
@@ -365,7 +338,7 @@
             this.dgvUsuarios.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvUsuarios.ColumnHeadersHeight = 30;
             this.dgvUsuarios.EnableHeadersVisualStyles = false;
-            this.dgvUsuarios.Location = new System.Drawing.Point(54, 275);
+            this.dgvUsuarios.Location = new System.Drawing.Point(13, 265);
             this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.dgvUsuarios.Name = "dgvUsuarios";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -381,6 +354,33 @@
             this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUsuarios.Size = new System.Drawing.Size(731, 222);
             this.dgvUsuarios.TabIndex = 33;
+            // 
+            // lineShape5
+            // 
+            this.lineShape5.Enabled = false;
+            this.lineShape5.Name = "lineShape5";
+            this.lineShape5.X1 = 466;
+            this.lineShape5.X2 = 665;
+            this.lineShape5.Y1 = 106;
+            this.lineShape5.Y2 = 106;
+            // 
+            // lineShape6
+            // 
+            this.lineShape6.Enabled = false;
+            this.lineShape6.Name = "lineShape6";
+            this.lineShape6.X1 = 466;
+            this.lineShape6.X2 = 665;
+            this.lineShape6.Y1 = 137;
+            this.lineShape6.Y2 = 137;
+            // 
+            // lineShape7
+            // 
+            this.lineShape7.Enabled = false;
+            this.lineShape7.Name = "lineShape7";
+            this.lineShape7.X1 = 466;
+            this.lineShape7.X2 = 665;
+            this.lineShape7.Y1 = 168;
+            this.lineShape7.Y2 = 168;
             // 
             // Usuarios
             // 
@@ -449,9 +449,9 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
+        private System.Windows.Forms.DataGridView dgvUsuarios;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape7;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape5;
-        private System.Windows.Forms.DataGridView dgvUsuarios;
     }
 }
