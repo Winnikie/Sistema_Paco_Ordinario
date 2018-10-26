@@ -33,3 +33,16 @@ C:\Users\migue\OneDrive\Escritorio\Desarrollo\C#\Proyecto\SoftRedes\SoftRedes\bi
 C:\Users\Winnikie Mendiburu\Desktop\Ordinario-Paco\here\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\SoftRedes.exe.config
 C:\Users\Winnikie Mendiburu\Desktop\Ordinario-Paco\here\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.exe
 C:\Users\Winnikie Mendiburu\Desktop\Ordinario-Paco\here\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.pdb
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\SoftRedes.exe.config
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.exe
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.pdb
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\SoftRedes.exe
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\SoftRedes.pdb
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.csprojResolveAssemblyReference.cache
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.Login.resources
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.Usuarios.resources
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.VentanaPrincipal.resources
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.Properties.Resources.resources
+C:\Users\migue\Source\Repos\Winnikie\Sistema_Paco_Ordinario\Proyecto\SoftRedes\SoftRedes\obj\Debug\SoftRedes.csproj.GenerateResource.Cache
