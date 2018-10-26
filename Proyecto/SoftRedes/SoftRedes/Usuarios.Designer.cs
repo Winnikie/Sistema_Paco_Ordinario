@@ -33,8 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             this.catUsuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.softRedDataSet1 = new SoftRedes.SoftRedDataSet1();
-            this.catUsuarioTableAdapter = new SoftRedes.SoftRedDataSet1TableAdapters.CatUsuarioTableAdapter();
+         
             this.dtpFechaNacUsuario = new System.Windows.Forms.DateTimePicker();
             this.txtRContraseñaUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseñaUsuario = new System.Windows.Forms.TextBox();
@@ -55,7 +54,7 @@
             this.txtTelefonoUsuario = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.catUsuarioBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.softRedDataSet1)).BeginInit();
+
             this.SuspendLayout();
             // 
             // label1
@@ -88,20 +87,6 @@
             this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUsuarios.Size = new System.Drawing.Size(554, 166);
             this.dgvUsuarios.TabIndex = 3;
-            // 
-            // catUsuarioBindingSource
-            // 
-            this.catUsuarioBindingSource.DataMember = "CatUsuario";
-            this.catUsuarioBindingSource.DataSource = this.softRedDataSet1;
-            // 
-            // softRedDataSet1
-            // 
-            this.softRedDataSet1.DataSetName = "SoftRedDataSet1";
-            this.softRedDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // catUsuarioTableAdapter
-            // 
-            this.catUsuarioTableAdapter.ClearBeforeFill = true;
             // 
             // dtpFechaNacUsuario
             // 
@@ -309,7 +294,7 @@
             this.Load += new System.EventHandler(this.Usuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.catUsuarioBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.softRedDataSet1)).EndInit();
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,9 +304,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvUsuarios;
-        private SoftRedDataSet1 softRedDataSet1;
         private System.Windows.Forms.BindingSource catUsuarioBindingSource;
-        private SoftRedDataSet1TableAdapters.CatUsuarioTableAdapter catUsuarioTableAdapter;
         private System.Windows.Forms.DateTimePicker dtpFechaNacUsuario;
         private System.Windows.Forms.TextBox txtRContraseñaUsuario;
         private System.Windows.Forms.TextBox txtContraseñaUsuario;
