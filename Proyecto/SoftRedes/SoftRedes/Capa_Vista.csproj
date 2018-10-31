@@ -125,6 +125,16 @@
   <ItemGroup>
     <None Include="Resources\IconoMinimizarTam.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Entidades\Capa_Entidades.csproj">
+      <Project>{c1829094-7430-4be9-b53d-78c5da992212}</Project>
+      <Name>Capa_Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Negocios\Capa_Negocios.csproj">
+      <Project>{c1b00720-7188-4c43-b1a1-6c75aafa2f1b}</Project>
+      <Name>Capa_Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
